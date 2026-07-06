@@ -1,0 +1,36 @@
+body{
+    background: #018183;
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #018183;
+    width: 100%;
+    height: 100%;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: absolute;
+    width: 100%;
+    background-color: #634785;
+}
+
+.hamburgerIcon{
+    width: 50px;
+}
+
+main{
+    padding-top: 120px;
+}
+
+
