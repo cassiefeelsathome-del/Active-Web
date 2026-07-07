@@ -1,0 +1,16 @@
+div.icon-container {
+    color: #fffbf0;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(15, 1fr) ;
+}
+
+.projects{
+    padding-top: 5px;
+    text-align: center;
+}
+
+.projects-icon{
+    width: 75%;
+    padding-left: 10px;
+}
