@@ -24,7 +24,7 @@ export default function LoginModal({ onClick }) {
             <label htmlFor="user-selector" className="password">
               Select User:
             </label>
-            <select className="user-selector" name="user-selector" size="3">
+            <select className="user-selector" name="user-selector" size='3'>
               <option>User</option>
               <option>Employer</option>
               <option>Admin</option>

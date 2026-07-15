@@ -1,18 +1,23 @@
 import "./HomePage.css";
+import { iconsList } from "../data/iconsList";
 
 export default function HomePage() {
+  const icons = iconsList.map((obj) => {
+    return (
+      <figure class={obj.name} key={obj.name}>
+        <img
+          className={`${obj.name}-icon`}
+          src={obj.imageSrc}
+          alt={obj.imageAlt}
+        />
+        <figcaption>{obj.name}</figcaption>
+      </figure>
+    );
+  });
+
   return (
     <>
-      <div className="icon-container">
-        <figure class="projects">
-          <img
-            className="projects-icon"
-            src="/src/assets/computer_explorer-4.webp"
-            alt="Projects presented by a computer icon"
-          />
-          <figcaption>Projects</figcaption>
-        </figure>
-      </div>
+      <div className="icon-container">{icons}</div>
     </>
   );
 }
