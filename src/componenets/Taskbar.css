@@ -1,0 +1,17 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #C6C6C6;
+    width: 100%;
+    padding: 4px;
+    border-top: solid 2px #717171;
+}
+
+footer > button {
+    padding: 0;
+    width: 50px;
+}
+
+footer > button > img {
+    wid
+}

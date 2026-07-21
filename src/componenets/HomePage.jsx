@@ -1,5 +1,6 @@
 import "./HomePage.css";
 import { iconsList } from "../data/iconsList";
+import Taskbar from "./Taskbar";
 
 export default function HomePage() {
   const icons = iconsList.map((obj) => {
@@ -18,6 +19,7 @@ export default function HomePage() {
   return (
     <>
       <div className="icon-container">{icons}</div>
+      <Taskbar />
     </>
   );
 }
