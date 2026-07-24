@@ -1,16 +1,21 @@
 div.icon-container {
     color: #fffbf0;
     display: grid;
-    grid-template-rows: repeat(auto, 1fr);
-    grid-template-columns: repeat(15, 1fr) ;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(15, 1fr);
+    grid-auto-flow:column;
 }
 
-.projects{
+.icon{
     padding-top: 15px;
     text-align: center;
 }
 
-.projects-icon{
-    width: 60%;
+.icon-img{
+    width: 80px;
     padding-left: 10px;
+}
+
+figcaption{
+    text-transform: capitalize;
 }
