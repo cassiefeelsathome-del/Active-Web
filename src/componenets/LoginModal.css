@@ -6,7 +6,7 @@
 }
 
 .login-modal{
-    min-width: 30vw;
+    width: 30vw;
     position: relative;
     top: 30vh;
     align-self: center;
@@ -14,6 +14,7 @@
     background: #B9B9B9;
     padding: 5px;
     box-shadow: #272727 1px 1px 4px 4px;
+    margin: 0 auto;
 }
 
 .login-page img{
@@ -41,7 +42,7 @@
     background: none;
     height: 70px;
     padding: 0;
-
+    scrollbar-width: none
 }
 
 option{

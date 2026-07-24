@@ -11,12 +11,7 @@ function App() {
     console.log(onLogin);
   }
 
-  return (
-    <>
-      {onLogin ? <LoginModal onClick={loginToggle} /> : null}
-      <HomePage />
-    </>
-  );
+  return <>{onLogin ? <LoginModal onClick={loginToggle} /> : <HomePage />}</>;
 }
 
 export default App;
