@@ -7,10 +7,15 @@ export const iconsList = [
     },
     {
         name: "projects",
-        imageSrc: "/src/assets/computer_explorer-4.webp",
+        imageSrc: "/src/assets/template_nework_conn-4.webp",
         imageAlt: "Projects presented by a computer icon",
         fullscreenLink: '/projects'
     },
-    
+    {
+        name: "About_Me",
+        imageSrc: "/src/assets/computer_explorer-4.webp",
+        imageAlt: "file with a question mark on top of it",
+        fullscreenLink: '/aboutme'
+    },
 ] 
     
