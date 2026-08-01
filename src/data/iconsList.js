@@ -1,6 +1,7 @@
 import trashImg from '/src/assets/recycle_bin_full-2.webp'
 import projectImg from "/src/assets/template_nework_conn-4.webp"
 import aboutMeImg from "/src/assets/computer_explorer-4.webp"
+import blogImg from '/src/assets/address_book_pad.webp'
 
 
 export const iconsList = [
@@ -15,6 +16,12 @@ export const iconsList = [
         imageSrc: projectImg,
         imageAlt: "Projects presented by a computer icon",
         fullscreenLink: '/projects'
+    },
+    {
+        name: "Blog",
+        imageSrc: blogImg,
+        imageAlt: "notpad",
+        fullscreenLink: '/blog'
     },
     {
         name: "About_Me",
