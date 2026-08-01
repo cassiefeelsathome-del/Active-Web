@@ -1,4 +1,5 @@
 import "./LoginModal.css";
+import loginImage from "/src/assets/windowsLogo98.webp";
 
 export default function LoginModal({ onClick }) {
   return (
@@ -20,11 +21,11 @@ export default function LoginModal({ onClick }) {
             </div>
           </div>
           <div className="login-page">
-            <img src="/src/assets/windowsLogo98.webp" />
+            <img src={loginImage} />
             <label htmlFor="user-selector" className="password">
               Select User:
             </label>
-            <select className="user-selector" name="user-selector" size='3'>
+            <select className="user-selector" name="user-selector" size="3">
               <option>User</option>
               <option>Employer</option>
               <option>Admin</option>
