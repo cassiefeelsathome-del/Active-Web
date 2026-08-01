@@ -1,11 +1,12 @@
 import "./HomePage.css";
 import { iconsList } from "../data/iconsList";
 import Taskbar from "./Taskbar";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   const icons = iconsList.map((obj) => {
-    return (
-      <figure class={obj.name + " icon"} key={obj.name}>
+    const figure = (
+      <figure className={obj.name + " icon"}>
         <img
           className={`${obj.name}-icon icon-img`}
           src={obj.imageSrc}
@@ -14,6 +15,16 @@ export default function HomePage() {
         <figcaption>{obj.name}</figcaption>
       </figure>
     );
+
+    if (obj.name === "Blog") {
+      return (
+        <Link to={obj.fullscreenLink} key={obj.name} className="icon-link">
+          {figure}
+        </Link>
+      );
+    }
+
+    return <div key={obj.name}>{figure}</div>;
   });
 
   return (
