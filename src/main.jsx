@@ -11,7 +11,9 @@ export function Home() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route path="blog" />
+          <Route path="aboutme" />
+          <Route path="projects" />
+          <Route path="games" />
         </Route>
       </Routes>
     </BrowserRouter>
