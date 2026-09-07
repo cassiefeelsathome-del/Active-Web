@@ -16,14 +16,6 @@ export default function HomePage() {
       </figure>
     );
 
-    if (obj.name === "Blog") {
-      return (
-        <Link to={obj.fullscreenLink} key={obj.name} className="icon-link">
-          {figure}
-        </Link>
-      );
-    }
-
     return <div key={obj.name}>{figure}</div>;
   });
 

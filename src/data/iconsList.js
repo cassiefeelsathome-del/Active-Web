@@ -20,12 +20,6 @@ export const iconsList = [
         fullscreenLink: '/projects'
     },
     {
-        name: "Blog",
-        imageSrc: blogImg,
-        imageAlt: "notpad",
-        fullscreenLink: '/blog'
-    },
-    {
         name: "About_Me",
         imageSrc: aboutMeImg,
         imageAlt: "file with a question mark on top of it",
