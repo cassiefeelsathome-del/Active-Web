@@ -1,5 +1,6 @@
 import LoginModal from "/src/componenets/LoginModal.jsx";
 import HomePage from "./componenets/HomePage";
+import Window from "./componenets/Window"
 import "./App.css";
 import { useState } from "react";
 
@@ -11,7 +12,8 @@ function App() {
     console.log(onLogin);
   }
 
-  return <>{onLogin ? <LoginModal onClick={loginToggle} /> : <HomePage />}</>;
+  return <>
+  {onLogin ? <LoginModal onClick={loginToggle} /> : <HomePage />}</>;
 }
 
 export default App;
